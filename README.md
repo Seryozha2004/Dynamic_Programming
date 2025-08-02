@@ -16,3 +16,26 @@ This project compares 2 dynamic programming ways to compute the n-th Fibonacci n
 
 ## Performance
 First method works faster than second.
+
+---
+
+
+# Factorial Dynamic Programming
+
+This project compares 2 methods for calculatiing the factorial of n using:
+
+- **Recursive with Memorization**
+- **Iterative loop based approach**
+
+
+### 1. Recursive + Memorization
+- Top-down approach with caching.
+- Avoids redundant computations.
+
+### 2. Iterative
+- Simple for loop from 2 to n
+- No recursion or extra memory
+
+
+### Performance
+Second method works faster than first.
