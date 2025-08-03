@@ -61,3 +61,18 @@ This project solves "Climbing Stairs" problem in 2 ways:
 
 ### Performance
 First method works faster than second
+
+
+
+# Grid Unique Paths
+
+This project computes the number of distinct paths from the top-left corner to the bottom-right corner of an mxn grid.
+At each step you can move only right or down.
+
+
+### Solution
+We use iterative dynamic programming with a 2D array dp[m][n] where
+-dp[i][j] = number number of unique paths to ceil (i-1, j-1)
+-dp[0][j] = 1 for all j (only right moves)
+-dp[i][0] = 1 for all i (only down moves)
+-dp[i][j] = dp[i-1][j] + dp[i][j-1];
