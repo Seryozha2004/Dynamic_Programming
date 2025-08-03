@@ -39,3 +39,25 @@ This project compares 2 methods for calculatiing the factorial of n using:
 
 ### Performance
 Second method works faster than first.
+
+
+
+# Climbing Stairs
+
+This project solves "Climbing Stairs" problem in 2 ways:
+
+- **Recursive With Memorization**
+- **Iterative Tabulation**
+
+
+### 1. Recursive + Memorization
+- Top-down approach
+- Uses recursion and a memo array
+
+### 2. Iterative Tabulation
+- Bottom-up approach
+- Fills a dp array from step 1 to n
+
+
+### Performance
+First method works faster than second
